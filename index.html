@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>дз</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="block-slide">
+        <button class="arrow arrow-left">
+            <p class="arrow-p"><</p>
+        </button>
+        <div class="slides">
+            <img class="slide__img"src="https://klike.net/uploads/posts/2019-11/1574605248_9.jpg" alt="">
+            <img class="slide__img" src="https://www.ejin.ru/wp-content/uploads/2019/05/gornyj-pejzazh.jpg" alt="">
+            <img class="slide__img" src="https://get.wallhere.com/photo/2560x1600-px-lake-mountain-nature-1092998.jpg" alt="">
+            <img class="slide__img" src="https://img-fotki.yandex.ru/get/368408/493212545.59f/0_1dff4d_9472a591_orig.jpg" alt="">
+            <img class="slide__img" src="https://avatars.mds.yandex.net/get-pdb/216365/116764a4-fe23-4fa1-864d-9006d87ff1d6/s1200?webp=false" alt="">
+        </div>
+        <button class="arrow arrow-right">
+            <p class="arrow-p">></p>
+        </button>
+    </div>
+    <div class="block-form">
+        <p class="title">Register</p>
+        <form class="form-register"action="">
+            <p class="subtitle">Full name:</p>
+            <input required class="form__input" value="" pattern="[a-zA-Z\s]{1,120}$" title="Только латинские буквы" type="text" name="name">
+            <p class="subtitle">E-Mail:</p>
+            <input required class="form__input" value="" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$" title="example@mail.ru" type="text" name="email">
+            <p class="subtitle">Password:</p>
+            <input required class="form__input" value="" minlength="8" title="Поле пароля должно содержать не менее 8 символов" type="password" name="">
+            <button type="submit" class="form__btn">Sign Up</button>
+        </form>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
